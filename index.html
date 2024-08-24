@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Serega</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="zamok_na_holme.jpg" id="avatar" />
+        <div class="info-text">
+          <h1 id="fio">Сергей Иванович Бондаренко</h1>
+          <p>Я начинающий web разаботчик</p>
+          <p>На текущий момент работаю системным аналитиком</p>
+        </div>
+      </div>
+
+      <div class="social">
+        <h2>Социальные сети</h2>
+        <ul type="circle">
+          <li>Insatgramm</li>
+          <li>Телеграм</li>
+          <li>Одноклссники</li>
+          <li><a href="http://www.yandex.ru/" target="_blank">Yandex</a></li>
+        </ul>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Хобби</h2>
+        <ol class="list">
+          <li>Пить пиво</li>
+          <li>Спать</li>
+          <li>Кушать мясо</li>
+        </ol>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <!--           <thead> -->
+          <!--             <tr> -->
+          <!--               <th>1</th> -->
+          <!--               <th>2</th> -->
+          <!--               <th>3</th> -->
+          <!--             </tr> -->
+          <!--           </thead> -->
+          <tbody>
+            <tr>
+              <td>БТИ</td>
+              <td>Техник</td>
+              <td>2008-2015</td>
+            </tr>
+            <tr>
+              <td>Кадастровая</td>
+              <td>Инженер</td>
+              <td>2015-2018</td>
+            </tr>
+            <tr>
+              <td>Клауд</td>
+              <td>Системный аналитик</td>
+              <td>2018 - по настоящее время</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--       <div class="card bg-red"> -->
+      <!--         <h2>Мои курсы</h2> -->
+      <!--         <a href="new.html">Список</a> -->
+      <!--       </div> -->
+
+      <div class="card bg-red">
+        <h2>Мои курсы</h2>
+        <ul class="link-list">
+          <li><a href="https://mail.ru/">Mail</a></li>
+          <li><a href="https://git.effectivetrade.ru/user/login">Git</a></li>
+          <li><a href="https://octopus.effectivetrade.ru/">Octopus</a></li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Обратная связь</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name"></label>
+              <input type="text" id="name" placeholder="Введите ваше имя..." />
+            </div>
+            <div class="form-group">
+              <label for="mail"></label>
+              <input type="email" id="mail" placeholder="Введите email..." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text"></label>
+            <textarea
+              id="text"
+              rows="4"
+              cols="25"
+              placeholder="Ваше сообщение..."
+            ></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="~ Отправить ~" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
